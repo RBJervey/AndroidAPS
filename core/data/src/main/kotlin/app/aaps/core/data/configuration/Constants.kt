@@ -17,8 +17,8 @@ object Constants {
     const val remoteBolusMinDistance = 15 * 60 * 1000L
 
     // Circadian Percentage Profile
-    const val CPP_MIN_PERCENTAGE = 30
-    const val CPP_MAX_PERCENTAGE = 250
+    const val CPP_MIN_PERCENTAGE = 10
+    const val CPP_MAX_PERCENTAGE = 300
     const val CPP_MIN_TIMESHIFT = -23
     const val CPP_MAX_TIMESHIFT = 23
     const val MAX_PROFILE_SWITCH_DURATION = (7 * 24 * 60).toDouble()// [min] ~ 7 days
@@ -27,7 +27,7 @@ object Constants {
     const val dailyLimitWarning = 0.95
 
     // Temp targets
-    const val MIN_TT_MGDL = 72.0
+    const val MIN_TT_MGDL = 70.0
     const val MAX_TT_MGDL = 180.0
     const val MIN_TT_MMOL = 4.0
     const val MAX_TT_MMOL = 10.0
